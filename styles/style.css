@@ -2,17 +2,136 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-.inter-text{
+
+.inter-text {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400;
   font-style: normal;
+
 }
 
 .noto-serif-text {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight:400;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+
+}
+
+.banner-description {
+  width: 550px;
+}
+
+/* card section*/
+.our-plant {
+  margin-top: 20px
+}
+
+.plant-description {
+  width: 63%;
+  margin: auto;
+  margin-top: 18px
+}
+
+/* card section */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card-btn {
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px
+}
+
+.plant-card {
+  width: 1140px;
+  margin:auto;
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px
+}
+
+@media screen and (max-width:576px) {
+  .navbar {
+    margin: 7px 16px 5px 16px
+  }
+
+  .nav-link {
+    display: none
+  }
+
+  /* banner section */
+  .banner {
+    flex-direction: column-reverse;
+    margin: 20px 0px 12px 0px;
+  }
+
+  .banner-description {
+    width: auto;
+    margin: 18px 14px 17px 14px;
+
+  }
+
+  .description-title {
+    font-size: 28px
+  }
+
+  .description-title p {
+    margin-bottom: 7px
+  }
+
+  .description {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  /* plant card section */
+  .plant-description {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 15px
+  }
+
+  /* card */
+  .plant-card {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px
+  }
+
+  .card {
+    width: 165px;
+  }
+
+  .card-btn{
+    font-size:16px;
+    font-weight: 500;
+  }
+  .card >p ,span{
+    font-size:16px;
+    font-weight:500;
+  }
 }

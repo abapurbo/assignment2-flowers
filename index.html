@@ -6,27 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers Shoppe</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/d23ec0ca34.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
- <header>
-    <nav>
-        <h1></h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F8E6D0"><path d="m480-560-56-56 63-64H320v-80h167l-64-64 57-56 160 160-160 160ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>Cart ($56)</a></li>
-        </ul>
-    </nav>
- </header>
- <main>
+<body class="inter-text">
+    <header>
+        <nav class="navbar flex justify-between mx-14 mt-4 items-center">
+            <img class="w-22" src="./images/logo.png" alt="logo" srcset="">
 
- </main>
- <footer>
+            <div class="flex items-center space-x-7">
+                <ul class=" nav-link flex  items-center text-[18px] font-semibold space-x-10 text-gray-600">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <p class="lg:text-[18px] text-xl font-semibold text-gray-600"> <i class="fa-solid fa-cart-plus"></i>
+                    Cart ($56)</p>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="banner flex justify-between items-center  mx-14 mt-28">
+            <div class="banner-description  ">
+                <h1 class="description-title text-5xl mb-4 noto-serif-text font-bold">
+                    <p>ALWAYS <span class='text-[#E95A08]'>FRESH</span></p>
+                    <span class="text-[#E95A08]">FLOWERS</span>
+                </h1>
+                <p class="text-gray-400 description text-[22px]">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for
+                    any occasion. </p>
+            </div>
+            <div>
+                <img class="banner-img" src="./images/hero-flower.png" alt="banner icon">
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- our plant section -->
+        <section class="our-plant">
+            <div>
+                <h1 class="noto-serif-text text-center font-bold lg:text-[50px] text-4xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="plant-description text-center  text-[22px] text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <!-- card section -->
+            <div class="plant-card  ">
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
 
- </footer>
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p >Lily Blossom</p>
+                    <span class="lg:text-2xl text-xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+                <div class="card">
+                    <div class="mb-3">
+                        <img  src="./images/sample-flower-image.png" alt="this is flower">
+                    </div>
+                    <p>Lily Blossom</p>
+                    <span class="text-2xl font-bold">20 USD</span>
+                    <button class="card-btn bg-[#E95A08]">ADD TO CART</button>
+
+
+
+                </div>
+              
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
