@@ -247,7 +247,7 @@
   /* banner section */
   .banner {
     width: auto;
-    flex-direction: column-reverse;
+    /* flex-direction: ; */
     margin: 50px 0px 12px 0px;
   }
 
