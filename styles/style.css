@@ -20,12 +20,13 @@
 .navbar {
   width: 1140px;
   margin: auto;
-
+  margin-top: 15px
 }
 
 .banner {
   width: 1140px;
-  margin: auto
+  margin: auto;
+  margin-top: 90px;
 }
 
 .banner-description {
@@ -104,7 +105,8 @@
 /* latest deals section */
 .latest-container {
   width: 1140px;
-  margin: auto
+  margin: auto;
+  margin-bottom: 40px
 }
 
 .latest-title {
@@ -125,16 +127,92 @@
 
 .img-1 {
 
-  background-color: rgba(0, 0, 0,0.6);
-  border-radius:10px;
-  width:100%;
-  height:100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
+/* join our colorful section */
+.join-colorful-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('../images/news-letter-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-position: center;
+  margin: 70px 0 80px 0
+}
+
+.join-color-title {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom:40px;
+  text-align:center;
+
+}
+.subscribe-int{
+  background-color:white;
+  width:600px;
+  padding:15px 300px 15px 20px;
+  
+}
+.join-colorful-container input[type="email"]{
+  color:rgba(0, 0, 0, 1);
+  font-size:18px;
+
+}
+.subscribe-btn{
+  color:white;
+  font-size:16px;
+  font-weight:600;
+  font-size:16px;
+  background-color:#E95A08;
+  padding:16px 53px 16px 53px;
+  cursor: pointer;
+}
+.footer-container{
+  width:1120px;
+  margin:auto;
+  margin-bottom:50px;
+
+}
+.footer-inner-container{
+  display:flex;
+  justify-content:space-between;
+
+}
+.footer-list{
+  list-style:none;
+  row-gap:7px;
+}
+.footer-description{
+ font-size:22px;
+ width:390px;
+ margin-top:10px
+}
+.footer-icon{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:200px;
+  height:50px;
+}
+/* .icon{
+  width:10px
+} */
 @media screen and (max-width:576px) {
   .navbar {
     width: auto;
-    margin: 7px 16px 5px 16px
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .nav-link {
@@ -145,7 +223,7 @@
   .banner {
     width: auto;
     flex-direction: column-reverse;
-    margin: 20px 0px 12px 0px;
+    margin: 50px 0px 12px 0px;
   }
 
   .banner-description {
